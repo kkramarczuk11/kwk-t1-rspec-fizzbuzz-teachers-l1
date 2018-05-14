@@ -1,4 +1,4 @@
 fizzbuzz = 3
-if Fizz_3/3
+if fizzbuzz/3
   puts "Fizz"
 end

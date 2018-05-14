@@ -1,4 +1,4 @@
-int = 3
+int = 5
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 == 0
    return "FizzBuzz"

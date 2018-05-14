@@ -5,3 +5,5 @@ describe "fizzbuzz" do
   end
 end
 
+fizzbuzz(3) == "Fizz"
+fizz_3 = fizzbuzz(3)

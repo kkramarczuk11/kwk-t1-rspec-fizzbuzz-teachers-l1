@@ -5,13 +5,14 @@ describe "fizzbuzz" do
   end
   it 'returns "Buzz" when the number is divisible by 5' do
     fizz_5 = fizzbuzz(5)
-    expect(buzz_5).to eq("Buzz")
+    expect(fizz_5).to eq("Buzz")
   end
   it 'returns "Fizzbuzz" when the number is divisible by 3 and 5' do
     fizz_15 = fizzbuzz(15)
-    expect(fizzbuzz_15).to eq("Fizzbuzz")
+    expect(fizz_15).to eq("Fizzbuzz")
   end
   it 'returns "nil" when the number is not divisible by 3 or 5' do
     fizz_4 = fizzbuzz(4)
+    expect(fizz_4).to eq("nil")
   end
 end
